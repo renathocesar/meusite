@@ -1,0 +1,81 @@
+/* Imagens podem ser dimensionadas pela largura width ou pela altura height */
+
+body{
+    background-color: lightcyan;
+}
+
+h1{
+    color: cornflowerblue; 
+    text-align: center;
+}
+
+h2{
+    color: dodgerblue;
+    text-decoration: underline
+}
+
+p.paragrafoprincipal{
+    font-size: 20px; 
+    text-align: justify;
+}
+
+p.paragrafosubtitulo{
+    font-size: 18px; 
+    text-align: justify;
+}
+
+
+ul li{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.imagemhobbie{
+    border-radius: 20px; 
+}
+
+.imagemlugares{
+    border-radius: 5px;
+}
+
+table,th,td {
+    table-layout: fixed;
+    width: 300px;
+}
+
+th{
+    font-size:20px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: cornflowerblue;
+    color: white;
+    
+}
+
+td{
+    font-size: 18px;
+    text-align: center;
+    font-style: oblique;
+    border-bottom: 1px solid cornflowerblue;
+}
+
+a:link{
+    color: blue;
+    font-size: 18px;
+}
+
+a:hover{
+    color: red;
+}
+
+button{
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+}
+#mensagem {
+    margin-top: 10px;
+    font-weight: bold;
+    color: cornflowerblue;
+}
+
